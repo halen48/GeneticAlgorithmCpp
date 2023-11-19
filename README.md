@@ -4,6 +4,6 @@ This repository contains a C++ genetic algorithm code that I developed a year af
 
 The code supports both MultiThreading and OpenCL, enabling execution on GPU, including NVIDIA and AMD, or any hardware accelerator with C++ support.
 
-Additionally, in the ```operators``` folder, there are pre-programmed functions for crossover, mutation, and selection, each in their respective files with matching names.
+Additionally, in the ```src/operators``` folder, there are pre-programmed functions for crossover, mutation, and selection, each in their respective files with matching names.
 
-The file ```parameters.h``` contains all additional configurations necessary for the genetic algorithm to function.
+The file ```src/parameters.h``` contains all additional configurations necessary for the genetic algorithm to function.
