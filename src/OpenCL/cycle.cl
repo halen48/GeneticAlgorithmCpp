@@ -1,17 +1,7 @@
-/*__kernel void sumVec(__global int *a,
-                       __global int *b,
-                       __global int *c){                                                               
-    //Get our global thread ID                                  
-    int id = get_global_id(0);                                  
-                                                                
-	c[id] = a[id] + b[id];
-}//
-*/
-
 #include "../ga.h"
 
 /*
-Vai dar problema porque os ponteiros das funÁıes n„o est„o na GPU
+Caso os ponteiros das fun√ß√µes n√£o estejam na GPU, n√£o funcionar√°!
 */
 
 __kernel void cycle(chromosome * chromo, chromosome * new_pop) {
